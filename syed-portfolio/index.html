@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syed Musharaf — AI Engineer | Data Scientist | Data Analyst</title>
+<meta name="description" content="Portfolio of Syed Musharaf, AI Engineer based in Riyadh, Saudi Arabia. Agentic RAG, SAMA compliance AI, ML pipelines, Power BI and data analytics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <a class="logo" href="#top">SM<span>.</span></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<!-- HIGGSFIELD: when your hero video is ready, save it as assets/hero-video.mp4
+     and uncomment the <source> line inside the <video> tag below. Nothing else to change. -->
+<section class="hero" id="top">
+  <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+    <source src="assets/hero-video.mp4" type="video/mp4">
+  </video>
+  <div class="hero-shade"></div>
+  <!-- Avatar: walks in from the right on page load, then introduces Syed.
+       When the Higgsfield talking video arrives, it replaces this avatar. -->
+  <div class="hero-avatar" id="heroAvatar" aria-hidden="true">
+    <div class="speech-bubble">Hi, I am Syed Musharaf — AI Engineer. Press “Hear my intro” and I’ll introduce myself.</div>
+    <img src="assets/portrait.jpg" alt="">
+    <span class="avatar-badge">Syed Musharaf · AI Engineer · Riyadh</span>
+  </div>
+  <div class="hero-inner">
+    <p class="eyebrow">Riyadh, Saudi Arabia &nbsp;·&nbsp; Transferable Iqama</p>
+    <h1>SYED<br>MUSHARAF</h1>
+    <p class="hero-title">AI Engineer building <em>Agentic RAG</em> systems for banking, compliance &amp; data-driven business.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-dark">View Projects</a>
+      <a href="#contact" class="btn btn-light">Get in Touch</a>
+    </div>
+    <div class="talk-card">
+      <p id="talkText">Hi, I am Syed Musharaf — AI Engineer. Press play and I’ll introduce myself.</p>
+      <button id="talkBtn" type="button">&#9654; Hear my intro</button>
+    </div>
+    <div class="hero-stats">
+      <div><strong data-count="4.3" data-suffix="+">4.3+</strong><span>Years Experience</span></div>
+      <div><strong>88%+</strong><span>Retrieval Precision — SAMA RAG</span></div>
+      <div><strong>Riyadh</strong><span>Based · Open to Saudi Arabia &amp; Dubai</span></div>
+      <div><strong>AI + Data</strong><span>AI Engineer · Data Scientist · Analyst</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="about-photo reveal">
+      <img src="assets/portrait.jpg" alt="Portrait of Syed Musharaf">
+      <div class="photo-card">
+        <strong>Oracle Certified</strong>
+        <span>Generative AI Professional · 2025</span>
+      </div>
+    </div>
+    <div class="reveal">
+      <p class="kicker">About Me</p>
+      <h2>I build AI that thinks, acts, and delivers.</h2>
+      <ul class="taglines">
+        <li>Where intelligence becomes engineering.</li>
+        <li>Turning raw data into intelligent systems.</li>
+        <li>I don’t just use AI. I build it.</li>
+        <li>Building the brains behind modern business.</li>
+        <li>Engineering AI that actually works in the real world — and data that explains your business.</li>
+      </ul>
+      <p>AI Engineer and Data Scientist with 4.3 years of experience developing AI solutions for Saudi banking and compliance. Hands-on with Generative AI, LLM integration, RAG, vector search and API integration.</p>
+      <p>I build Arabic/English assistants and automated document workflows with evaluation, security guardrails and human oversight; develop ML pipelines; and translate insights into stakeholder reports and dashboards. I led two AI/ML hackathons in Hyderabad.</p>
+      <div class="chips">
+        <span>Agentic RAG</span><span>LangChain / LangGraph</span><span>Power BI &amp; DAX</span>
+        <span>Python &amp; SQL</span><span>Machine Learning</span><span>FastAPI</span>
+        <span>Arabic / English AI</span><span>SAMA Compliance</span>
+      </div>
+      <div class="about-facts">
+        <div><h3>Education</h3><p>BCA, Telangana University (80%)<br>2020 – 2023</p></div>
+        <div><h3>Certifications</h3><p>Oracle Generative AI Professional · 2025<br>Data Scientist, Full Stack Academy · 2024</p></div>
+        <div><h3>Languages</h3><p>English — Fluent (Professional)<br>Arabic — Basic</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience" id="experience">
+  <div class="wrap">
+    <p class="kicker">Experience</p>
+    <h2 class="section-title">Work History</h2>
+
+    <article class="job reveal">
+      <div class="job-date">Dec 2024 — Jun 2026<br><span>Riyadh, Saudi Arabia</span></div>
+      <div class="job-body">
+        <h3>AI Engineer — ANB</h3>
+        <p class="job-sub">Agentic RAG for SAMA Compliance Document Intelligence</p>
+        <ul>
+          <li>Built a SAMA banking-compliance Q&amp;A assistant with LangChain &amp; LangGraph — Planner, Retriever and Responder nodes for context-aware answers.</li>
+          <li>Document ingestion for PDF, HTML, TXT, DOCX and PPTX with paragraph-based chunking and metadata.</li>
+          <li>Improved retrieval with Gemini embeddings, Qdrant Cloud and FlashRank reranking — reaching <strong>88%+ retrieval precision</strong>.</li>
+          <li>Portkey routing to Groq-hosted Llama 3.3 70B with fallback, NeMo Guardrails against jailbreaks / prompt injection, a FastAPI <code>/query</code> endpoint and a React chat UI.</li>
+          <li>Tracked quality with LangSmith, RAGAS and Pydantic Logfire for tracing and evaluation.</li>
+        </ul>
+        <div class="tags"><span>LangChain</span><span>LangGraph</span><span>Qdrant</span><span>Gemini Embeddings</span><span>FastAPI</span><span>React</span><span>RAGAS</span><span>NeMo Guardrails</span></div>
+      </div>
+    </article>
+
+    <article class="job reveal">
+      <div class="job-date">Jul 2023 — Jan 2026<br><span>Hyderabad, India</span></div>
+      <div class="job-body">
+        <h3>Data Scientist — Cyepro Solutions</h3>
+        <p class="job-sub">Machine Learning, Analytics &amp; Business Intelligence</p>
+        <ul>
+          <li>Developed fraud-detection models (Random Forest, XGBoost, Logistic Regression) with hyperparameter tuning and SMOTE for class imbalance.</li>
+          <li>End-to-end ML pipelines: cleaning, outlier treatment, feature engineering, training and evaluation (AUC-ROC, precision/recall, confusion matrix).</li>
+          <li>Fine-tuned open-source LLMs (Llama / Mistral) using QLoRA on domain-specific datasets.</li>
+          <li>Analysed e-commerce behaviour, funnel drop-offs and customer segments with Pandas, Matplotlib and Seaborn — and turned findings into business recommendations.</li>
+          <li>Created Power BI KPI dashboards with DAX and drill-through reports, from requirements to stakeholder presentations.</li>
+        </ul>
+        <div class="tags"><span>Python</span><span>XGBoost</span><span>Scikit-Learn</span><span>SMOTE</span><span>QLoRA</span><span>Power BI</span><span>DAX</span><span>Pandas</span><span>Docker</span><span>GitHub Actions</span></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
+  <div class="wrap">
+    <p class="kicker light">Projects</p>
+    <h2 class="section-title light">Selected Work</h2>
+    <p class="projects-note">Some cards show real screenshots from my own systems — the agent workflow, LLM gateway analytics and guardrails tracing. Others use designed graphics until screenshots are added.</p>
+
+    <div class="project-grid">
+
+      <!-- 1. SAMA RAG -->
+      <article class="card reveal">
+        <div class="card-art art-rag">
+          <div class="flow"><span>Question</span><b>→</b><span>Planner</span><b>→</b><span>Retriever</span><b>→</b><span>Responder</span></div>
+          <div class="art-badge">88%+ retrieval precision</div>
+        </div>
+        <div class="card-body">
+          <h3>SAMA Compliance Agentic RAG Assistant</h3>
+          <p>Banking-compliance Q&amp;A over SAMA documents with grounded, cited answers, guardrails and full evaluation tracing. Below is the real Agent Intelligence Flow — User → Streamlit UI → FastAPI → NeMo Guardrails → Planner → Retriever → FlashRank Reranker → Responder, with LangGraph memory.</p>
+          <img class="card-img" src="assets/workflow-agent.png" alt="Agent Intelligence Flow diagram: User, Streamlit UI, FastAPI query, NeMo Guardrails, Planner Node, Retriever Node, FlashRank reranker, Responder Node and LangGraph memory">
+          <div class="tags"><span>LangGraph</span><span>Qdrant</span><span>Llama 3.3 70B</span><span>FastAPI</span></div>
+          <a class="code-link" href="https://github.com/syedmusharaf0/RAG-AI-SYSTEM" target="_blank" rel="noopener">View the code — RAG-AI-SYSTEM on GitHub</a>
+        </div>
+      </article>
+
+      <!-- Talk-to-Your-Data Analyst Agent -->
+      <article class="card wide reveal">
+        <div class="card-art art-charts">
+          <div class="chat">
+            <p class="bubble user">Why did sales drop in March?</p>
+            <p class="bubble bot">March sales fell mainly in one region after a campaign ended. Here is the SQL I ran, the chart, and the numbers behind it.</p>
+          </div>
+          <div class="chart-box">
+            <h4>Auto-Generated Chart</h4>
+            <svg viewBox="0 0 300 110" role="img" aria-label="Bar chart showing a sales drop in March">
+              <g fill="#ff7a1a"><rect x="25" y="28" width="34" height="72" rx="4"/><rect x="85" y="36" width="34" height="64" rx="4" opacity=".85"/><rect x="145" y="62" width="34" height="38" rx="4"/><rect x="205" y="44" width="34" height="56" rx="4" opacity=".8"/></g>
+            </svg>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Talk-to-Your-Data Analyst Agent</h3>
+          <p>Ask “why did sales drop in March?” and it writes the SQL, runs it, builds the chart, and explains the result in plain language. It fuses data science and AI engineering — data that explains your business, in conversation.</p>
+          <div class="tags"><span>LangGraph</span><span>Text-to-SQL</span><span>PostgreSQL</span><span>FastAPI</span><span>React + Charts</span></div>
+        </div>
+      </article>
+
+      <!-- LLM Gateways & Routing -->
+      <article class="card wide reveal">
+        <div class="card-body">
+          <h3>LLM Gateways &amp; Routing — Portkey</h3>
+          <p>Every model call goes through one gateway instead of calling providers directly. Portkey routes each request to the best available model — primary Groq-hosted Llama 3.3 70B — with automatic fallback to a backup key/provider if one fails, so the service stays up. The gateway tracks cost, tokens, latency and errors for every request, as in this real analytics screenshot from my system:</p>
+          <img class="card-img dark" src="assets/portkey-analytics.jpg" alt="Portkey LLM gateway analytics: cost $12.50, 1,250,400 tokens used, TTFT 340ms, error rate 0.2 percent, cache hit rate 34.5 percent, 15,420 requests">
+          <div class="flow"><span>App</span><b>→</b><span>Portkey Gateway</span><b>→</b><span>Llama 3.3 70B (primary)</span><b>→</b><span>Fallback provider</span></div>
+          <div class="tags" style="margin-top:14px"><span>Portkey</span><span>Multi-LLM Routing</span><span>Fallbacks</span><span>Token &amp; Cost Analytics</span><span>Latency Tracing</span></div>
+        </div>
+      </article>
+
+      <!-- Guardrails & AI Security -->
+      <article class="card reveal">
+        <div class="card-body">
+          <h3>Guardrails &amp; AI Security</h3>
+          <p>NeMo Guardrails sits in front of the agent: it checks every question before the Planner runs and blocks off-topic queries, jailbreaks and prompt-injection attempts. Every request is traced in Pydantic Logfire — here, guardrails initialising and live <code>/graph</code> and <code>/query</code> traffic in my own logs:</p>
+          <img class="card-img dark" src="assets/logfire-guardrails.png" alt="Pydantic Logfire trace showing NeMo Guardrails initialised with llama-3.1-8b-instant and live API requests">
+          <div class="tags"><span>NeMo Guardrails</span><span>Prompt-Injection Protection</span><span>PII Awareness</span><span>Logfire Tracing</span></div>
+        </div>
+      </article>
+
+      <!-- Caching & Cost Optimization -->
+      <article class="card reveal">
+        <div class="card-art art-charts">
+          <div class="kpi-stack">
+            <div><strong>34.5%</strong><span>Cache Hit Rate — my gateway</span></div>
+            <div><strong>340ms</strong><span>TTFT Latency</span></div>
+            <div><strong>0.2%</strong><span>Error Rate</span></div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Caching &amp; Cost Optimization</h3>
+          <p>Repeated and similar questions are answered from a Redis semantic cache instead of paying for a new LLM call — the answer and its sources come back instantly, and the cache is invalidated when the underlying documents change. Result: lower token cost, faster answers, and full cost analytics per request through the gateway.</p>
+          <div class="tags"><span>Redis Semantic Caching</span><span>Cost Analytics</span><span>Token Management</span></div>
+        </div>
+      </article>
+
+      <!-- Docker & CI/CD -->
+      <article class="card reveal">
+        <div class="card-art art-rag">
+          <div class="flow"><span>Code</span><b>→</b><span>GitHub Actions</span><b>→</b><span>Tests</span><b>→</b><span>Docker Build</span><b>→</b><span>Deploy</span></div>
+          <div class="art-badge">Containerised FastAPI services</div>
+        </div>
+        <div class="card-body">
+          <h3>Docker &amp; CI/CD Pipelines</h3>
+          <p>Model and API services are packaged as Docker containers so they run the same on a laptop, a server or the cloud. GitHub Actions CI/CD runs the tests on every change and builds the container image automatically — no manual, error-prone releases.</p>
+          <div class="tags"><span>Docker</span><span>GitHub Actions</span><span>CI/CD</span><span>FastAPI</span></div>
+        </div>
+      </article>
+
+      <!-- LoRA / QLoRA Fine-Tuning -->
+      <article class="card wide reveal">
+        <div class="card-art art-charts">
+          <div class="chart-box grow">
+            <h4>Before → After Fine-Tuning (illustrative)</h4>
+            <svg viewBox="0 0 320 120" role="img" aria-label="Illustrative bar chart: answer accuracy rises after domain fine-tuning">
+              <rect x="45" y="58" width="70" height="46" rx="5" fill="#8a6a4d"/>
+              <rect x="195" y="18" width="70" height="86" rx="5" fill="#ff7a1a"/>
+              <text x="52" y="118" fill="#e8d8c4" font-size="11">Base model</text>
+              <text x="172" y="118" fill="#e8d8c4" font-size="11">Domain-tuned (QLoRA)</text>
+            </svg>
+            <p style="color:#cbbca9;font-size:.85rem">A base model answers in general terms. Small LoRA adapters trained on domain data teach it the domain’s vocabulary, formats and facts — so answers become specific and accurate for that domain, at a fraction of full training cost.</p>
+          </div>
+          <div class="kpi-stack">
+            <div><strong>Why it matters</strong><span>Domain-accurate answers</span></div>
+            <div><strong>QLoRA</strong><span>Trains small adapters, not the whole model</span></div>
+            <div><strong>Used at Cyepro</strong><span>Llama / Mistral fine-tuning</span></div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>LoRA / QLoRA Fine-Tuning Techniques</h3>
+          <p>Fine-tuning adapts a general model to one domain — banking terms, medical language, a company’s own documents. QLoRA makes it affordable: the base model stays frozen in 4-bit, and only lightweight adapter layers learn the domain, so a model that answered generically starts answering like a specialist.</p>
+          <div class="tags"><span>LoRA</span><span>QLoRA</span><span>Llama</span><span>Mistral</span><span>Domain Adaptation</span></div>
+        </div>
+      </article>
+
+      <!-- 2. PFAssistant -->
+      <article class="card reveal">
+        <div class="card-art art-pf">
+          <div class="chat"><p class="bubble user">What did I spend on fuel last month?</p><p class="bubble bot">Based on your statements: SAR 640 — 12% less than the month before.</p></div>
+        </div>
+        <div class="card-body">
+          <h3>PFAssistant — AI Financial Advisor Chatbot</h3>
+          <p>Mobile assistant that answers questions about financial documents using RAG, with vector search and response guardrails.</p>
+          <div class="tags"><span>RAG</span><span>OpenAI API</span><span>LangChain</span><span>React Native</span></div>
+        </div>
+      </article>
+
+      <!-- 3. Power BI Sales Analyst -->
+      <article class="card wide reveal">
+        <div class="card-art art-charts">
+          <div class="chart-box">
+            <h4>Revenue Trend</h4>
+            <svg viewBox="0 0 300 110" role="img" aria-label="Revenue line chart trending upwards">
+              <polyline points="10,90 60,72 110,78 160,50 210,42 260,22 292,28" fill="none" stroke="#ff7a1a" stroke-width="3" stroke-linecap="round"/>
+              <g fill="#ffb37a"><circle cx="10" cy="90" r="3"/><circle cx="110" cy="78" r="3"/><circle cx="210" cy="42" r="3"/><circle cx="292" cy="28" r="3"/></g>
+            </svg>
+          </div>
+          <div class="chart-box">
+            <h4>Sales by Category</h4>
+            <svg viewBox="0 0 300 110" role="img" aria-label="Bar chart of sales by category">
+              <g fill="#ff7a1a"><rect x="25" y="30" width="34" height="70" rx="4"/><rect x="85" y="48" width="34" height="52" rx="4" opacity=".75"/><rect x="145" y="18" width="34" height="82" rx="4"/><rect x="205" y="58" width="34" height="42" rx="4" opacity=".6"/></g>
+            </svg>
+          </div>
+          <div class="kpi-stack">
+            <div><strong>+18.4%</strong><span>Revenue Growth</span></div>
+            <div><strong>Top: Electronics</strong><span>Best Category</span></div>
+            <div><strong>Riyadh</strong><span>Top Region</span></div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Power BI — Sales Analyst Dashboard</h3>
+          <p>Executive sales dashboard built with Power BI and DAX: revenue, orders, average order value and category / region performance with drill-through.</p>
+          <ul class="insights">
+            <li><strong>Insight:</strong> Revenue peaks follow campaign weeks — repeat the same offer pattern in low months.</li>
+            <li><strong>Insight:</strong> One category drives margin while another drives volume — price and bundle them differently.</li>
+          </ul>
+          <div class="tags"><span>Power BI</span><span>DAX</span><span>SQL</span><span>Sales Analytics</span><span>KPI Reporting</span></div>
+        </div>
+      </article>
+
+      <!-- 4. E-commerce EDA -->
+      <article class="card wide reveal">
+        <div class="card-art art-charts">
+          <div class="chart-box grow">
+            <h4>Conversion Funnel</h4>
+            <div class="funnel">
+              <div style="--w:100%"><span>Visited</span><b>100%</b></div>
+              <div style="--w:72%"><span>Viewed Product</span><b>72%</b></div>
+              <div style="--w:44%"><span>Added to Cart</span><b>44%</b></div>
+              <div style="--w:21%"><span>Purchased</span><b>21%</b></div>
+            </div>
+          </div>
+          <div class="kpi-stack">
+            <div><strong>Biggest Drop</strong><span>Cart → Purchase</span></div>
+            <div><strong>Segments</strong><span>Repeat buyers spend most</span></div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>E-Commerce EDA — Customer Behaviour &amp; Funnel Analysis</h3>
+          <p>Exploratory data analysis of e-commerce behaviour: funnel drop-offs, customer segmentation and product performance using Python.</p>
+          <ul class="insights">
+            <li><strong>Insight:</strong> The largest loss is between cart and purchase — checkout friction, not traffic, is the problem.</li>
+            <li><strong>Insight:</strong> A small repeat-buyer segment drives a large share of revenue — retention offers beat new discounts.</li>
+          </ul>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>EDA</span><span>Segmentation</span></div>
+        </div>
+      </article>
+
+      <!-- 5. Fraud Detection -->
+      <article class="card reveal">
+        <div class="card-art art-fraud">
+          <div class="matrix" aria-hidden="true"><i></i><i class="hit"></i><i class="hit"></i><i></i></div>
+          <div class="art-badge">XGBoost · SMOTE · AUC-ROC</div>
+        </div>
+        <div class="card-body">
+          <h3>Fraud Detection System</h3>
+          <p>ML models to flag fraudulent transactions, handling heavy class imbalance and evaluated on precision / recall — not accuracy alone.</p>
+          <div class="tags"><span>XGBoost</span><span>Random Forest</span><span>SMOTE</span><span>Scikit-Learn</span></div>
+        </div>
+      </article>
+
+      <!-- 6. Skills snapshot -->
+      <article class="card reveal">
+        <div class="card-art art-skills">
+          <span>RAG</span><span>NLP</span><span>Vector Search</span><span>QLoRA</span><span>MCP</span><span>CrewAI</span><span>PostgreSQL</span><span>pgvector</span><span>Pinecone</span><span>AWS</span><span>Docker</span><span>CI/CD</span>
+        </div>
+        <div class="card-body">
+          <h3>Core Toolkit</h3>
+          <p>AI/LLM, backend, data and cloud tools used across the projects above — full list on my resume and LinkedIn.</p>
+          <div class="tags"><span>Python</span><span>FastAPI</span><span>LangChain</span><span>Power BI</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="wrap reveal">
+    <p class="kicker light">Contact</p>
+    <h2>Let’s build something useful.</h2>
+    <p class="contact-line">Open to AI Engineer, Data Scientist, Data Analyst and Business Analyst roles across Saudi Arabia — and relocation to Dubai.</p>
+    <div class="contact-links">
+      <a href="mailto:mushumushu656@gmail.com">mushumushu656@gmail.com</a>
+      <a href="tel:+966570430052">+966 57 043 0052</a>
+      <a href="https://www.linkedin.com/in/syed-musharaf-%D8%A7%D9%84%D8%B3%D9%8A%D8%AF-%D9%85%D8%B4%D8%B1%D9%81-5250372a6/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/syedmusharaf0" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-note">© 2026 Syed Musharaf · Riyadh, Saudi Arabia</p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
